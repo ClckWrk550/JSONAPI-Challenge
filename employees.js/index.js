@@ -40,8 +40,8 @@ async function getEmployees(order = null) {
             const aSalary = parseFloat(a.salary) || -1;
             const bSalary = parseFloat(b.salary) || -1;
 
-            if (order === 'asc') return aSalary - bSalary;
-            if (order === 'desc') return bSalary - aSalary;
+            if (order === 'a') return aSalary - bSalary;
+            if (order === 'd') return bSalary - aSalary;
             return 0;
         });
 
@@ -54,4 +54,4 @@ async function getEmployees(order = null) {
     }
 }
 
-getEmployees('asc'); // Inputs options are 'asc' and 'desc'
+getEmployees('a'); // Inputs options are 'a' and 'd'
