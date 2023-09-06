@@ -1,0 +1,18 @@
+All requirements have been fulfilled as requested. Employees.js is set as the package, npm version is 1.0.2,
+and the primary function can display/sort employees based on ascending or descending salary order.
+
+A few things worth mentioning:
+
+I was not sure whether or not 'fake-server' was to be treated as a local folder or as a localhost server.
+That being said, I went with the straightforward approach and simply parsed the JSON files locally in lieu of using XML Requests.
+Assuming the folder was meant to be accessed via localhost, I would probably have used the Fetch API or the Axios client 
+to fetch and parse the data accordingly.
+
+Additionally, I was unsure whether or not it was acceptable for me to completely refactor the starting code, so I played it safe.
+While the XML Request was replaced with a JSON parsing function, the abRmnSal (now getSalaries) function and getEmployees remain.
+Assuming I had complete freedom to refactor the code, I would have probably combined getSalaries and getEmployees into a grabData function
+with a variable endpoint (employee,salary) that could be called in the final array-forming function.
+
+
+
+

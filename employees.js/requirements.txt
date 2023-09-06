@@ -1,0 +1,12 @@
+Hey friend,
+
+We have to fix, improve and prepare our code for the new npm package. Package name should be employees.js and version should be 1.0.2.
+
+End result of this package should be an exposed function for retrieving employees with their salaries from the server. Function should support returning employees ascending or descending by salary.
+
+Feel free to improve this codebase based on your knowledge and previous experience. Also feel free to share your notes, conclusions and questions.
+
+You shouldn't publish the npm package, only prepare code for that.
+
+Please share code on github as a private project when you finish.
+
